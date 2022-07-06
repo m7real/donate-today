@@ -8,8 +8,8 @@ body {
 .banner-container {
   width: 100%;
   height: 669px;
-  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.414) ), url(images/top-banner.png);
-  bac
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.414)),
+    url(images/top-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -28,8 +28,8 @@ body {
   text-decoration: none;
   color: #ffffff;
   width: 160px;
-  height: 56px;
-  padding: 16px 30px;
+  height: 60px;
+  padding: 16px 20px;
   font-weight: 600;
   font-size: 20px;
   border-radius: 5px;
@@ -38,4 +38,57 @@ body {
   margin-bottom: 50px;
   font-size: 18px;
   line-height: 28px;
+}
+.donation-wrapper {
+  text-align: center;
+  margin-top: 100px;
+}
+.donation{
+  width 100%;
+}
+.black-title{
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+}
+.donation p{
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+}
+.amount-selection{
+  display: flex;
+  justify-content: center;
+}
+.amount-selection h3{
+    width: 135px;
+    text-align: center;
+    font-size: 30px;
+    padding: 60px 20px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    color: #707070;
+}
+#default-selection{
+    width: 135px;
+    border: 3px solid #ff5959;
+    background-color: #ffeeee;
+}
+.donation-text-input{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 65%;
+    padding: 10px 0;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    border-color: #dadada;
+    outline: none;
+    text-indent: 40.5%;
+    font-size: 18px;
+}
+.donation-text-input::placeholder{
+    font-size: 18px;
+    color: #b3b3b3;
 }

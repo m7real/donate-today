@@ -127,6 +127,28 @@ body {
     background-color:rgba(255, 244, 214, 1);
 
 }
+.staff-section{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flexible-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 200px;
+}
+.box-shadow{
+
+    border: 10px;
+    margin: 20px;
+    box-shadow: 8px 8px 16px rgb(17, 16, 16);
+    border-radius: 5px;
+}
+
+
+
+
+
 /* extra section here */
 
 .newsletter-title{
@@ -134,9 +156,7 @@ body {
     width: 60%;
     text-align: center;
 }
-/* .nl-text{
-  padding: 50px 150px;
-} */
+
 #form-container{
     width: 45%;
     margin: 0 auto;

@@ -51,10 +51,11 @@ body {
   font-size: 45px;
   color: #121212;
 }
-.donation p{
+.color-gray{
   font-weight: 400;
   font-size: 18px;
   color: #707070;
+  line-height: 28px
 }
 .amount-selection{
   display: flex;
@@ -91,4 +92,38 @@ body {
 .donation-text-input::placeholder{
     font-size: 18px;
     color: #b3b3b3;
+}
+.plan-card{
+    display: flex;
+    justify-content: center;
+    margin: 50px 150px;
+}
+.card{
+    width: 25%;
+    padding: 60px 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 200px;
+}
+.card h3{
+    font-size: 26px;
+    padding: 20px 0px;
+}
+.card p{
+    font-size: 20px;
+    text-align: left;
+    line-height: 35px;
+    color: #707070;
+    
+}
+#food{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#shelter{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+#education{
+    background-color:rgba(255, 244, 214, 1);
+
 }
